@@ -1,6 +1,5 @@
-/*10a Um número a é dito permutação de um número b se os dígitos de a formam uma permutação  dos
+/* Um número a é dito permutação de um número b se os dígitos de a formam uma permutação  dos
 dígitos de b.
-1 
 Exemplo: 5412434 é uma permutação de 4321445, mas não é uma permutação de 4312455. Obs.: Considere
 que o dígito 0 (zero) não aparece nos números. 
 (a) Faça uma função contadigitos que dados um inteiro n e um inteiro d, 0 < d < 9, devolve  
@@ -22,20 +21,23 @@ int contadigitos(int n,int d){
     }
     return cont;
 }
+  bool permutação(int a,int b){
+      for(int d=1;d<10;d++){
+          if(contadigitos(a,d)!=contadigitos(b,d)){
+              return false;
+          }
+      } return true;
+      
+  }
 
-int main()
-{   int n,d,cont;
-    std::cout<<"digite um inteiro n ";
-    cin>>n;
-    
-    do{
-    cout<<"digite um inteiro d em que 0>d<9 ";
-    cin>>d;}
-    while(d<0||d>9);
-    
-    cout<<contadigitos(n,d);
-    
-    
-
-    return 0;
-}
+    int main()
+    {
+        int a,b;
+        
+        cout<<"digite um numero a e b";
+        cin>>a>>b;
+        
+        cout<<permutação(a,b);
+        
+        return 0;
+    }
