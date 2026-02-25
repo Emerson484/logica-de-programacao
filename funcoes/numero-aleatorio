@@ -1,0 +1,39 @@
+// gere um numero aleatorio
+#include <cstdlib>
+
+using namespace std;
+
+int main(){
+
+srand(time(NULL));
+
+int x = rand() % 200 ;
+
+int chute;
+
+while(true){
+    cout<< "chute um numero entre 0 e 199";
+    cin>>chute;
+    
+    if(chute>x){
+       cout<<"seu chute foi maior que o numero aleatorio x";
+    }
+    else if (chute<x){
+       cout<< "seu chute foi menor que o numero aleatorio x";
+     
+    }
+    else{
+        cout<<"voce acertou";
+        break;
+    }
+     
+}
+
+
+    return 0;
+}
+
+
+
+
+
