@@ -2,7 +2,6 @@
 Depois modifique o programapara que ele mostre os números um ao lado do outro.*/
 
 /*um abaixo do outro*/
-
 #include <iostream>
 using namespace std;
 
@@ -17,9 +16,8 @@ int main()
 }
 
 
-/*
-um ao lado do outro
 
+//um ao lado do outro
 #include <iostream>
 using namespace std;
 
@@ -31,4 +29,4 @@ int main()
     }
    
     return 0;
-}*/
+}
