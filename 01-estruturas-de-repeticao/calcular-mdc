@@ -1,0 +1,28 @@
+// pedir 2 numeros e calcular o maior divisor comum 
+# include <iostream>
+using namespace std;
+int main(){
+
+  int n1,n2,menor,mdc;
+  
+  cout<<"digite o numero 1"<<endl;
+  cin>>n1,menor;
+  
+  cout<<"digite o numero 2"<<endl;
+  cin>>n2;
+  
+  if(n1>n2){
+     menor=n2;
+  }else{
+     menor=n1;
+  }
+  while(menor>0){
+     if(n1%menor==0 && n2%menor==0){
+     mdc=menor;
+     break;
+     }
+     menor--;
+  }
+  cout<<"o mdc entre o os numeros e"<<mdc;
+  
+}
