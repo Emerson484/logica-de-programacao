@@ -1,4 +1,4 @@
-/*3. 5 Altere o programa anterior permitindo ao usuário informar as populações 
+/* Altere o programa anterior (crescimento populacional fixo) permitindo ao usuário informar as populações 
 e as taxas de crescimento iniciais.Valide a entrada e permita repetir a operação.*/
 #include <iostream>
 using namespace std;
