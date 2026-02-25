@@ -1,5 +1,6 @@
 # logica-de-programacao
 📂 Estrutura do Repositório
+
 O projeto está dividido em três pastas principais:
 
 Estruturas de Repetição: Implementações focadas em controle de fluxo utilizando laços for, while e do-while e if.
