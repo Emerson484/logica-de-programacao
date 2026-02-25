@@ -1,4 +1,4 @@
-/* 2. Faça um programa que leia e valide as seguintes informações:
+/* Faça um programa que leia e valide as seguintes informações:
 Idade: entre 0 e 150;
 Salário: maior que zero;
 Sexo: 'f' ou 'm';
